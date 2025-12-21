@@ -1,0 +1,9 @@
+train_start_date: "2016-01-01"
+train_end_date: "2021-12-31"
+backtest_start_date: "2022-01-01"
+backtest_end_date: "2025-12-31"
+
+optimize_params: false
+
+initial_capital: 20000000
+commission: 0.001
