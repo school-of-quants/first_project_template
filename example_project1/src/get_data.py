@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -12,6 +13,8 @@ def get_data():
     """
     Скачиваем тренировочноые и бэктестовые данные и сохраняем в train_data.parquet и backtest_data.parquet соответственно
     """
+    os.makedirs(project_path.as_posix() + "/data", exist_ok=True)
+    os.makedirs(project_path.as_posix() + "/artifacts", exist_ok=True)
     cfg = load_config(project_path.parent.as_posix() + "/config.yaml")
 
     TICKER = "BTC-USD"
