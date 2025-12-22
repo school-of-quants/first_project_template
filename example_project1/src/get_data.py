@@ -3,8 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
-
-from example_project1.src.utils import load_config
+from first_project_template.src.utils import load_config
 
 project_path = Path(__file__).parent.parent
 

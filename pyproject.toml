@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "example-project1"
+name = "first_project_template"
 version = "0.1.0"
 description = "Project 1 example"
 authors = ["Евсин Игорь Русланович <igor.evsin@squants.education>"]

@@ -1,6 +1,6 @@
-from example_project1.src.get_data import get_data
-from example_project1.src.run_backtest import run_backtest
-from example_project1.src.strategy import train_strategy
+from first_project_template.src.get_data import get_data
+from first_project_template.src.run_backtest import run_backtest
+from first_project_template.src.strategy import train_strategy
 
 
 def main():

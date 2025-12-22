@@ -5,8 +5,7 @@ import pandas as pd
 from backtesting import Backtest, Strategy
 from backtesting.lib import crossover
 from backtesting.test import SMA
-
-from example_project1.src.utils import load_config
+from first_project_template.src.utils import load_config
 
 project_path = Path(__file__).parent.parent
 
