@@ -6,7 +6,7 @@
 ```bash
 first_project_template/
 │
-├── first_project_template/           # Основной код проекта
+├── first_project_template/         # Основной код проекта
 │   ├── artifacts/
 │   │   ├── best_params.json        # Обученные на тренировочных данных параметры стратегии, создается в src/strategy
 │   │   ├── backtest_metrics.json   # Бэктестовые метрики стратегии, создается в src/run_backtest
